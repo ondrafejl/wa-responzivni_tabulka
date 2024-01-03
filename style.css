@@ -1,0 +1,57 @@
+body{
+    margin: auto;
+}
+
+table {
+    margin:25px auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    text-align: center;
+    width: auto;
+    padding: 6px;
+    background-color: gray;
+    border: 5px solid lightblue;
+}
+
+td{
+    text-align: center;
+    max-width: auto;
+    padding: 6px;
+    background-color: white;
+    border: 5px solid lightblue;
+}
+
+.den{
+    background-color: lightblue;
+}
+
+hr{
+    border-top: 2px solid lightblue;
+}
+  
+.first-block{
+    background-color: lightblue;
+}
+    
+@media screen and (max-width: 800px) {
+    th, td {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    th, td {
+        padding: 6px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    th, td {
+        padding: 2px;
+        font-size: 8px;
+    }
+}
